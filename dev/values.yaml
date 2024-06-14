@@ -8,7 +8,7 @@ image:
 
   
 ingress:
-  enabled: false
+  enabled: true
   className: ""
   annotations: 
     nginx.ingress.kubernetes.io/proxy-body-size: "0"
