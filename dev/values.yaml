@@ -6,7 +6,12 @@ image:
   # Overrides the image tag whose default is the chart appVersion.
   tag: "2.0.0"
 
-  
+
+service:
+  type: ClusterIP
+  port: 5000
+
+
 ingress:
   enabled: true
   className: "nginx"
