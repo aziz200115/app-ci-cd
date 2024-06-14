@@ -9,7 +9,7 @@ image:
   
 ingress:
   enabled: true
-  className: ""
+  className: "nginx"
   annotations: 
     nginx.ingress.kubernetes.io/proxy-body-size: "0"
     ingress.kubernetes.io/ssl-redirect: "false"
